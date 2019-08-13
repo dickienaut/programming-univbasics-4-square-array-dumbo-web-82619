@@ -1,11 +1,12 @@
 
 ary = [9,10,16,25]
-counter = 0
 
 def square_array(array)
+  counter = 0
   result = []
-  for element in array
-    result.push(element * element)
-    
+  while counter < array length do
+    result.push(array[counter] * array[counter])
+    counter += 1
+  end
   return result
 end
