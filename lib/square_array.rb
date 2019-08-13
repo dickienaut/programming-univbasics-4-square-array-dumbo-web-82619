@@ -1,3 +1,11 @@
+
+ary = [9,10,16,25]
+counter = 0
+
 def square_array(array)
-  # your code here
+  result = []
+  for element in array
+    result.push(element * element)
+    
+  return result
 end
