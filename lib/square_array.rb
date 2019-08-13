@@ -1,6 +1,3 @@
-
-ary = [9,10,16,25]
-
 def square_array(array)
   counter = 0
   result = []
